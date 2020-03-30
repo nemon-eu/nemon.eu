@@ -264,6 +264,47 @@ html, body{
 	vertical-align: middle;
 	text-align: center;
 }
+/*temp2019ncov*/
+.temp2019ncov{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	margin-bottom: 60px;
+}
+.grouptemp2019ncov{
+	display: table-cell;
+	vertical-align: middle;
+}
+.temp2019ncov .inner{
+	width: 80%;
+}
+.temp2019ncov h1{
+	color: black;
+	padding-top: 2%;
+	font-size: 60px;
+}
+.temp2019ncov p{
+	color: black;
+	font-size: 20px;
+}
+.temp2019ncov .grouptemp2019ncov .don{
+	background-color: rgb(128,128,128);
+	height: 60px;
+	width: 200px;
+	margin-top: 40px;
+	display: table;
+}
+.temp2019ncov .grouptemp2019ncov .don:hover{
+	background-color: rgb(100,100,100);
+}
+.temp2019ncov .grouptemp2019ncov .don a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
 /*Footer*/
 footer{
 	display: table-row;
