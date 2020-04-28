@@ -71,21 +71,65 @@ html, body{
 	height: 400px;
 	display: table;
 	margin-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 .groupA1{
 	display: table-cell;
 	vertical-align: middle;
 	color: black;
 	padding: 5%;
+	padding-bottom: 0%;
 	font-size: 20px;
 	text-align: left;
 }
 .A1 .right{
+	margin-top: 20%;
+	font-size: 15px;
+	float: right;
+}
+.A1 .left{
+	float: left;
+}
+.A1 .form{
 	background-color: black;
 	color: white;
-	font-size: 15px;
-	padding: 3%;
+	padding: 35px;
+}
+.paypal-info p{
+	font-size: 12px;
+}
+/*A2*/
+.A2{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+.groupA2{
+	display: table-cell;
+	vertical-align: middle;
+	color: black;
+	padding: 5%;
+	padding-top: 0%;
+	font-size: 20px;
+	text-align: left;
+}
+.A2 .description a{
+	text-decoration: none;
+}
+.descripton .fdpinfo{
+	color: grey;
+}
+.A2 .table{
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+.A2 td{
+	border: 2px solid black;
+	padding: 10px 20px;
+	text-align: center;
 }
 /*Footer*/
 footer{
