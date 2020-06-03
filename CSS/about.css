@@ -82,7 +82,7 @@ html, body{
 }
 .A2 .inner{
 	width: 80%;
-	padding-bottom: 4px;
+	padding-bottom: 20px;
 }
 .A2 h1{
 	color: black;
@@ -92,6 +92,7 @@ html, body{
 .A2 p{
 	color: black;
 	font-size: 20px;
+	width: 50%;
 }
 /*A3*/
 .A3{
@@ -106,7 +107,7 @@ html, body{
 }
 .A3 .inner{
 	width: 80%;
-	padding-bottom: 4px;
+	padding-bottom: 20px;
 }
 .A3 h1{
 	color: black;
@@ -130,7 +131,7 @@ html, body{
 }
 .A4 .inner{
 	width: 80%;
-	padding-bottom: 4px;
+	padding-bottom: 20px;
 }
 .A4 h1{
 	color: black;
@@ -154,7 +155,7 @@ html, body{
 }
 .A5 .inner{
 	width: 80%;
-	padding-bottom: 4px;
+	padding-bottom: 20px;
 }
 .A5 h1{
 	color: black;
@@ -178,7 +179,7 @@ html, body{
 }
 .A6 .inner{
 	width: 80%;
-	padding-bottom: 4px;
+	padding-bottom: 20px;
 }
 .A6 h1{
 	color: black;
