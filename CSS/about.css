@@ -57,14 +57,14 @@ html, body{
 	width: 95%;
 	height: 200px;
 	margin-bottom: 60px;
-	display: table;
+}
+.groupA2{
+	display: table-cell;
+	vertical-align: middle;
 }
 .A1 h1{
 	color: black;
-	padding-top: 2%;
 	font-size: 60px;
-	display: table-cell;
-	vertical-align: middle;
 }
 /*A2*/
 .A2{
@@ -88,6 +88,7 @@ html, body{
 .A2 p{
 	color: black;
 	font-size: 20px;
+	padding-bottom: 2px;
 }
 /*A3*/
 .A3{
@@ -111,12 +112,13 @@ html, body{
 .A3 p{
 	color: black;
 	font-size: 20px;
+	padding-bottom: 2px;
 }
 /*A4*/
 .A4{
 	background-color: white;
 	width: 95%;
-	height: 400px;
+	height: auto;
 	margin-bottom: 60px;
 }
 .groupA4{
@@ -134,12 +136,13 @@ html, body{
 .A4 p{
 	color: black;
 	font-size: 20px;
+	padding-bottom: 2px;
 }
 /*A5*/
 .A5{
 	background-color: white;
 	width: 95%;
-	height: 400px;
+	height: auto;
 	margin-bottom: 60px;
 }
 .groupA5{
@@ -157,12 +160,13 @@ html, body{
 .A5 p{
 	color: black;
 	font-size: 20px;
+	padding-bottom: 2px;
 }
 /*A6*/
 .A6{
 	background-color: white;
 	width: 95%;
-	height: 400px;
+	height: auto;
 	margin-bottom: 60px;
 }
 .groupA6{
@@ -180,6 +184,7 @@ html, body{
 .A6 p{
 	color: black;
 	font-size: 20px;
+	padding-bottom: 2px;
 }
 /*Footer*/
 footer{
