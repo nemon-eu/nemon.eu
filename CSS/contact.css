@@ -57,6 +57,7 @@ html, body{
 	width: 95%;
 	height: auto;
 	margin-bottom: 60px;
+	text-align: left;
 }
 .groupA1{
 	display: table-cell;
@@ -76,6 +77,34 @@ html, body{
 	font-size: 20px;
 }
 .A1 a{
+	text-decoration: none;
+}
+/*A2*/
+.A2{
+	background-color: white;
+	width: 95%;
+	height: auto;
+	margin-bottom: 60px;
+	text-align: left;
+}
+.groupA2{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A2 .inner{
+	width: 80%;
+	padding-bottom: 20px;
+}
+.A2 h1{
+	color: black;
+	padding-top: 2%;
+	font-size: 60px;
+}
+.A2 p{
+	color: black;
+	font-size: 20px;
+}
+.A2 a{
 	text-decoration: none;
 }
 /*Footer*/
