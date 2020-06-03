@@ -105,6 +105,15 @@ html, body{
 .A2 a{
 	text-decoration: none;
 }
+.A2 .cen{
+	display: table;
+}
+.A2 .cen img{
+	display: table-cell;
+}
+.A2 .cen a{
+	display: table-cell;
+}
 /*Footer*/
 footer{
 	display: table-row;
