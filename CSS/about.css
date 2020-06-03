@@ -51,6 +51,162 @@ html, body{
 	display: table;
 	text-align: center;
 }
+/*A1*/
+.A1{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.groupA1{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A1 h1{
+	font-weight: 400;
+	font-family: 'RobotoForNemon', sans-serif;
+	letter-spacing: 40px;
+	color: black;
+	margin: 0;
+}
+/*A2*/
+.A2{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.groupA2{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A2 h1{
+	font-weight: 400;
+	font-family: 'RobotoForNemon', sans-serif;
+	letter-spacing: 40px;
+	color: black;
+	margin: 0;
+}
+.A2 p{
+	font-weight: 400;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 20px;
+	color: black;
+}
+/*A3*/
+.A3{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.groupA3{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A3 h1{
+	font-weight: 400;
+	font-family: 'RobotoForNemon', sans-serif;
+	letter-spacing: 40px;
+	color: black;
+	margin: 0;
+}
+.A3 p{
+	font-weight: 400;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 20px;
+	color: black;
+}
+/*A4*/
+.A4{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.groupA4{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A4 h1{
+	font-weight: 400;
+	font-family: 'RobotoForNemon', sans-serif;
+	letter-spacing: 40px;
+	color: black;
+	margin: 0;
+}
+.A4 p{
+	font-weight: 400;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 20px;
+	color: black;
+}
+/*A5*/
+.A5{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.groupA5{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A5 h1{
+	font-weight: 400;
+	font-family: 'RobotoForNemon', sans-serif;
+	letter-spacing: 40px;
+	color: black;
+	margin: 0;
+}
+.A5 p{
+	font-weight: 400;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 20px;
+	color: black;
+}
+/*A6*/
+.A6{
+	background-color: white;
+	width: 95%;
+	height: 400px;
+	display: table;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.groupA6{
+	display: table-cell;
+	vertical-align: middle;
+}
+.A6 h1{
+	font-weight: 400;
+	font-family: 'RobotoForNemon', sans-serif;
+	letter-spacing: 40px;
+	color: black;
+	margin: 0;
+}
+.A6 p{
+	font-weight: 400;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 20px;
+	color: black;
+}
 /*Footer*/
 footer{
 	display: table-row;
