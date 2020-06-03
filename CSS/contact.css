@@ -113,10 +113,12 @@ html, body{
 .A2 .cen img{
 	display: table-cell;
 	vertical-align: middle;
+	padding-right: 5px;
 }
 .A2 .cen a{
 	display: table-cell;
 	vertical-align: middle;
+	padding-left: 5px;
 }
 /*Footer*/
 footer{
