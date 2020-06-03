@@ -55,19 +55,22 @@ html, body{
 .A1{
 	background-color: white;
 	width: 95%;
-	height: 400px;
+	height: 200px;
 	margin-bottom: 60px;
+	display: table;
 }
 .A1 h1{
 	color: black;
 	padding-top: 2%;
 	font-size: 60px;
+	display: table-cell;
+	vertical-align: middle;
 }
 /*A2*/
 .A2{
 	background-color: white;
 	width: 95%;
-	height: 400px;
+	height: auto;
 	margin-bottom: 60px;
 }
 .groupA2{
@@ -90,7 +93,7 @@ html, body{
 .A3{
 	background-color: white;
 	width: 95%;
-	height: 400px;
+	height: auto;
 	margin-bottom: 60px;
 }
 .groupA3{
