@@ -55,12 +55,13 @@ html, body{
 .A1{
 	background-color: white;
 	width: 95%;
-	height: 200px;
+	height: 150px;
 	margin-bottom: 60px;
+	margin-top: 60px;
 }
 .groupA1{
 	display: table;
-	height: 200px;
+	height: 150px;
 }
 .A1 h1{
 	display: table-cell;
