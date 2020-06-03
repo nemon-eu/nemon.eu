@@ -81,7 +81,7 @@ html, body{
 	vertical-align: middle;
 }
 .A2 .inner{
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .A2 h1{
@@ -89,9 +89,10 @@ html, body{
 	padding-top: 2%;
 	font-size: 60px;
 }
-.A2 p{
+.A2 span{
 	color: black;
 	font-size: 20px;
+	white-space: nowrap;
 }
 /*A3*/
 .A3{
@@ -129,7 +130,7 @@ html, body{
 	vertical-align: middle;
 }
 .A4 .inner{
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .A4 h1{
@@ -137,9 +138,10 @@ html, body{
 	padding-top: 2%;
 	font-size: 60px;
 }
-.A4 p{
+.A4 span{
 	color: black;
 	font-size: 20px;
+	white-space: nowrap;
 }
 /*A5*/
 .A5{
@@ -153,7 +155,7 @@ html, body{
 	vertical-align: middle;
 }
 .A5 .inner{
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .A5 h1{
@@ -161,9 +163,10 @@ html, body{
 	padding-top: 2%;
 	font-size: 60px;
 }
-.A5 p{
+.A5 span{
 	color: black;
 	font-size: 20px;
+	white-space: nowrap;
 }
 /*A6*/
 .A6{
@@ -177,7 +180,7 @@ html, body{
 	vertical-align: middle;
 }
 .A6 .inner{
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .A6 h1{
@@ -185,9 +188,10 @@ html, body{
 	padding-top: 2%;
 	font-size: 60px;
 }
-.A6 p{
+.A6 span{
 	color: black;
 	font-size: 20px;
+	white-space: nowrap;
 }
 /*Footer*/
 footer{

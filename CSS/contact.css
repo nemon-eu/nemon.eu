@@ -63,7 +63,7 @@ html, body{
 	vertical-align: middle;
 }
 .A1 .inner{
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .A1 h1{
@@ -71,9 +71,10 @@ html, body{
 	padding-top: 2%;
 	font-size: 60px;
 }
-.A1 p{
+.A1 span{
 	color: black;
 	font-size: 20px;
+	white-space: nowrap;
 }
 .A1 a{
 	text-decoration: none;
@@ -90,7 +91,7 @@ html, body{
 	vertical-align: middle;
 }
 .A2 .inner{
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .A2 h1{
@@ -98,9 +99,10 @@ html, body{
 	padding-top: 2%;
 	font-size: 60px;
 }
-.A2 p{
+.A2 span{
 	color: black;
 	font-size: 20px;
+	white-space: nowrap;
 }
 .A2 a{
 	text-decoration: none;
