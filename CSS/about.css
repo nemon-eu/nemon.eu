@@ -56,156 +56,127 @@ html, body{
 	background-color: white;
 	width: 95%;
 	height: 400px;
-	display: table;
-	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
-}
-.groupA1{
-	display: table-cell;
-	vertical-align: middle;
 }
 .A1 h1{
-	font-weight: 400;
-	font-family: 'RobotoForNemon', sans-serif;
-	letter-spacing: 40px;
 	color: black;
-	margin: 0;
+	padding-top: 2%;
+	font-size: 60px;
 }
 /*A2*/
 .A2{
 	background-color: white;
 	width: 95%;
 	height: 400px;
-	display: table;
-	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
 }
 .groupA2{
 	display: table-cell;
 	vertical-align: middle;
 }
+.A2 .inner{
+	width: 80%;
+}
 .A2 h1{
-	font-weight: 400;
-	font-family: 'RobotoForNemon', sans-serif;
-	letter-spacing: 40px;
 	color: black;
-	margin: 0;
+	padding-top: 2%;
+	font-size: 60px;
 }
 .A2 p{
-	font-weight: 400;
-	font-family: 'Krona One', sans-serif;
-	letter-spacing: 20px;
 	color: black;
+	font-size: 20px;
 }
 /*A3*/
 .A3{
 	background-color: white;
 	width: 95%;
 	height: 400px;
-	display: table;
-	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
 }
 .groupA3{
 	display: table-cell;
 	vertical-align: middle;
 }
+.A3 .inner{
+	width: 80%;
+}
 .A3 h1{
-	font-weight: 400;
-	font-family: 'RobotoForNemon', sans-serif;
-	letter-spacing: 40px;
 	color: black;
-	margin: 0;
+	padding-top: 2%;
+	font-size: 60px;
 }
 .A3 p{
-	font-weight: 400;
-	font-family: 'Krona One', sans-serif;
-	letter-spacing: 20px;
 	color: black;
+	font-size: 20px;
 }
 /*A4*/
 .A4{
 	background-color: white;
 	width: 95%;
 	height: 400px;
-	display: table;
-	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
 }
 .groupA4{
 	display: table-cell;
 	vertical-align: middle;
 }
+.A4 .inner{
+	width: 80%;
+}
 .A4 h1{
-	font-weight: 400;
-	font-family: 'RobotoForNemon', sans-serif;
-	letter-spacing: 40px;
 	color: black;
-	margin: 0;
+	padding-top: 2%;
+	font-size: 60px;
 }
 .A4 p{
-	font-weight: 400;
-	font-family: 'Krona One', sans-serif;
-	letter-spacing: 20px;
 	color: black;
+	font-size: 20px;
 }
 /*A5*/
 .A5{
 	background-color: white;
 	width: 95%;
 	height: 400px;
-	display: table;
-	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
 }
 .groupA5{
 	display: table-cell;
 	vertical-align: middle;
 }
+.A5 .inner{
+	width: 80%;
+}
 .A5 h1{
-	font-weight: 400;
-	font-family: 'RobotoForNemon', sans-serif;
-	letter-spacing: 40px;
 	color: black;
-	margin: 0;
+	padding-top: 2%;
+	font-size: 60px;
 }
 .A5 p{
-	font-weight: 400;
-	font-family: 'Krona One', sans-serif;
-	letter-spacing: 20px;
 	color: black;
+	font-size: 20px;
 }
 /*A6*/
 .A6{
 	background-color: white;
 	width: 95%;
 	height: 400px;
-	display: table;
-	margin-top: 60px;
 	margin-bottom: 60px;
-	text-align: center;
 }
 .groupA6{
 	display: table-cell;
 	vertical-align: middle;
 }
+.A6 .inner{
+	width: 80%;
+}
 .A6 h1{
-	font-weight: 400;
-	font-family: 'RobotoForNemon', sans-serif;
-	letter-spacing: 40px;
 	color: black;
-	margin: 0;
+	padding-top: 2%;
+	font-size: 60px;
 }
 .A6 p{
-	font-weight: 400;
-	font-family: 'Krona One', sans-serif;
-	letter-spacing: 20px;
 	color: black;
+	font-size: 20px;
 }
 /*Footer*/
 footer{
