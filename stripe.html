@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Nemon</Title>
+		<link href="/CSS/stripe.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="/images/logo/logo-nemon-favicon.ico" />
+		<meta charset="UTF-8"/>
+		<meta http-equiv="content-language" content="fr" />
+		<!--CookieBot-->
+		<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="1cb7bc79-e3ab-46fc-80b6-d8a23c8d99cc" data-blockingmode="auto" type="text/javascript"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162202312-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-162202312-1');
+		</script>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<nav class="menu">
+				<div class="inner">
+					<div class="left">
+						<a href="/"><img src="/images/logo/logo-nemon.png" width="68" height="80"></a>
+					</div>
+					<div class="right">
+						<a href="/fr/" class="est">Accueil</a>
+						<a href="/fr/product" class="est">Produits</a>
+						<a href="/fr/about" class="est">A propos</a>
+						<a href="/fr/contact" class="est">Contact</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Page -->
+		<div class="container">
+			<!-- Load Stripe.js on your website. -->
+			<script src="https://js.stripe.com/v3"></script>
+
+			<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+			<button
+			  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+			  id="checkout-button-price_1GqG3IHOYXHwqmiGrySgJ0Lo"
+			  role="link"
+			>
+			  Checkout
+			</button>
+
+			<div id="error-message"></div>
+
+			<script>
+			(function() {
+			  var stripe = Stripe('pk_live_Ctaete5lFOAHh2y2PzizwI4w004x5rhcLO');
+
+			  var checkoutButton = document.getElementById('checkout-button-price_1GqG3IHOYXHwqmiGrySgJ0Lo');
+			  checkoutButton.addEventListener('click', function () {
+			    // When the customer clicks on the button, redirect
+			    // them to Checkout.
+			    stripe.redirectToCheckout({
+			      lineItems: [{price: 'price_1GqG3IHOYXHwqmiGrySgJ0Lo', quantity: 1}],
+			      mode: 'payment',
+			      // Do not rely on the redirect to the successUrl for fulfilling
+			      // purchases, customers may not always reach the success_url after
+			      // a successful payment.
+			      // Instead use one of the strategies described in
+			      // https://stripe.com/docs/payments/checkout/fulfillment
+			      successUrl: 'https://www.nemon.eu/success',
+			      cancelUrl: 'https://www.nemon.eu/canceled',
+			    })
+			    .then(function (result) {
+			      if (result.error) {
+			        // If `redirectToCheckout` fails due to a browser or network
+			        // error, display the localized error message to your customer.
+			        var displayError = document.getElementById('error-message');
+			        displayError.textContent = result.error.message;
+			      }
+			    });
+			  });
+			})();
+			</script>
+		</div>
+		<!--Footer-->
+		<footer>
+			<div id="position">
+				<div id="bottom">
+					<p>Copyright &copy; 2020 - Nemon. Tous droits réservés - <a href="/fr/imprint">Mentions légales</a> - <a href="/fr/cookies">Cookies et Confidentialité</a></p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
